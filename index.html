@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio de Meryam El Yamani</title>
+  <style>
+    /* Reset basique */
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+    }
+    body {
+      background-color: #fff0f6;
+      line-height: 1.6;
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    header {
+      text-align: center;
+      padding-bottom: 20px;
+      border-bottom: 2px solid #e84393;
+    }
+    h1 {
+      color: #e84393;
+      margin-bottom: 8px;
+    }
+    h2 {
+      color: #c72c74;
+      margin-top: 30px;
+      margin-bottom: 12px;
+      border-bottom: 2px solid #c72c74;
+      padding-bottom: 4px;
+    }
+    a {
+      color: #e84393;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      margin-left: 20px;
+      margin-bottom: 15px;
+    }
+    .section-content {
+      margin-bottom: 30px;
+    }
+    .contact-info {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 1.1em;
+    }
+    .project {
+      background: #ffe6f0;
+      border-radius: 6px;
+      padding: 15px;
+      margin-bottom: 15px;
+      box-shadow: 1px 1px 6px rgba(232, 67, 147, 0.2);
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      margin-top: 40px;
+      color: #a83261;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Meryam El Yamani</h1>
+    <p>Étudiante en Master Informatique & Intelligence Artificielle</p>
+    <p>
+      <a href="mailto:meryam.yamani@email.com">meryam.yamani@email.com</a> | 
+      <a href="https://linkedin.com/in/meryam-ai" target="_blank">LinkedIn</a> | 
+      <a href="https://github.com/meryamai" target="_blank">GitHub</a>
+    </p>
+  </header>
+
+  <section>
+    <h2>À propos de moi</h2>
+    <div class="section-content">
+      <p>
+        Passionnée par l'intelligence artificielle, le traitement du langage naturel et le développement web, je développe des projets concrets dans le cadre de mon Master pour contribuer à des solutions innovantes au Maroc.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Compétences techniques</h2>
+    <div class="section-content">
+      <ul>
+        <li><strong>Langages :</strong> Python, Java, JavaScript, HTML/CSS, SQL</li>
+        <li><strong>IA & ML :</strong> Scikit-learn, TensorFlow, Keras, Pandas, NumPy</li>
+        <li><strong>TALN :</strong> NLTK, SpaCy, BRILL Tagger</li>
+        <li><strong>Web :</strong> Django, Flask, REST APIs</li>
+        <li><strong>Base de données :</strong> MongoDB, MySQL, PostgreSQL</li>
+        <li><strong>IoT :</strong> Arduino, MQTT (débutante)</li>
+        <li><strong>Big Data :</strong> Apache Spark (débutante), NoSQL</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projets réalisés</h2>
+
+    <div class="project">
+      <h3>Application de segmentation et d'étiquetage morphosyntaxique (NLP)</h3>
+      <p><strong>Objectif :</strong> Segmenter un texte français et annoter les mots avec BRILL tagger</p>
+      <p><strong>Technos :</strong> Python, NLTK, Flask</p>
+      <p><strong>Fonctionnalités :</strong> Interface web simple pour saisir du texte et afficher les phrases avec étiquettes POS.</p>
+      <p><a href="#" target="_blank">Voir le code sur GitHub</a></p>
+    </div>
+
+    <div class="project">
+      <h3>Système e-commerce de produits cosmétiques (Django)</h3>
+      <p><strong>Objectif :</strong> Plateforme complète de vente avec paiement, compte client, gestion de stock</p>
+      <p><strong>Technos :</strong> Django, PostgreSQL, Bootstrap, jQuery</p>
+      <p><strong>Fonctionnalités :</strong> Espace client, panier, espace admin, affichage des achats avec méthode de paiement.</p>
+      <p><a href="#" target="_blank">Voir le code sur GitHub</a></p>
+    </div>
+
+    <div class="project">
+      <h3>Reconnaissance d’images CIFAR-10</h3>
+      <p><strong>Objectif :</strong> Classifier 10 types d’images avec un réseau de neurones</p>
+      <p><strong>Technos :</strong> Python, TensorFlow, CNN</p>
+      <p><strong>Résultats :</strong> Précision ~89%</p>
+      <p><a href="#" target="_blank">Voir le code sur GitHub</a></p>
+    </div>
+
+  </section>
+
+  <section>
+    <h2>Certifications</h2>
+    <ul>
+      <li>Python for Data Science – IBM (Coursera)</li>
+      <li>Introduction to Machine Learning – Stanford (Andrew Ng)</li>
+      <li>Django Full Stack – Udemy</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Meryam El Yamani | Tous droits réservés</p>
+  </footer>
+</body>
+</html>
